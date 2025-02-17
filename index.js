@@ -1,11 +1,6 @@
-// const heading = React.createElement(
-//   "h1",
-//   { className: "greetings" },
-//   React.createElement("div", {}, "Have a Nice Day"),
-//   React.createElement("div", {}, "second Element")
-// );
+import React from "react";
+import ReactDOM from "react-dom/client";
 
-// console.log(heading);
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 const parent = React.createElement(
